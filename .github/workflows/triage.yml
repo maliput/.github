@@ -6,9 +6,6 @@ on:
       number_of_project:
         required: true
         type: string
-    secrets:
-      github-token:
-        required: true
 
 jobs:
   add-ticket-to-project:
@@ -18,4 +15,4 @@ jobs:
       - uses: actions/add-to-project@v0.1.0
         with:
           project-url: https://github.com/orgs/maliput/projects/${{ inputs.number_of_project }}
-          github-token: ${{ secrets.github-token }}
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
