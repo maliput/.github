@@ -52,7 +52,7 @@ Closes #<NUMBER>
 <!-- Add information about the release -->
 
 ## After PR is merged
-<!-- Add any pending thing to do for the realease -->
+<!-- Add any pending thing to do for the release -->
 
 ## Checklist
 - [ ] Signed all commits for DCO
